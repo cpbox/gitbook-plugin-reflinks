@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-reflinks",
+  "version": "1.0.0",
+  "description": "GitBook plugin for creating reference links",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "title": {
+        "type": "string",
+        "default": "Reference",
+        "description": "Title for the reference section"
+      }
+    }
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "reflinks"
+  ],
+  "author": "CPBox",
+  "license": "MIT"
+} 
